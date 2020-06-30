@@ -1,2 +1,4 @@
 # SingleAppScreen
-A project to learn a single  app screen using best practices, layouts and views likw ScroolView, ImageView, ect
+A single-screen project app using best practices, layouts and views likw ScroolView, ImageView, ect
+
+![](images-repo/Capture.PNG )
