@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MintMont</string>
+    <string name="grab_a_coffe_make_your_day_mint_mont_coffee_for_3_dollars_only">grab a coffe make your day. Mint Mont coffee for 3 dollars only!!!</string>
+    <string name="address_80100_mombasa_digo_rd">Address: 80100 Mombasa, Digo Rd</string>
+    <string name="phone_no_0722977991">Phone no: 0722977991</string>
+    <string name="welcome_to_mintmont">welcome to mintmont</string>
 </resources>

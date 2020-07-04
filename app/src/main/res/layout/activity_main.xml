@@ -15,11 +15,7 @@
         android:scaleType="centerCrop"
         android:src="@drawable/cofee" />
 
-    <ImageView
-        android:layout_width="64pt"
-        android:layout_height="64sp"
-        android:layout_below="@id/message"
-        android:src="@drawable/drink" />
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -40,7 +36,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:text="contacts: 0722977991"
+            android:text="@string/phone_no_0722977991"
+            android:autoLink="phone"
             android:textColor="@android:color/holo_blue_dark"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -49,7 +46,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:text="Address: Mombasa, Digo Rd. Nkrumah"
+            android:text="@string/address_80100_mombasa_digo_rd"
+            android:autoLink = "map"
             android:textColor="@android:color/holo_blue_dark"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -64,7 +62,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
         android:padding="5dp"
-        android:text="welcome to mintmont"
+        android:text="@string/welcome_to_mintmont"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="25sp"
         android:textStyle="bold" />
@@ -78,8 +76,9 @@
         android:fontFamily="monospace"
         android:paddingLeft="100dp"
         android:textStyle="bold"
-        android:text="grab a coffe make your day. Mint Mont coffee for  3 dollars only!!!"
+        android:text="@string/grab_a_coffe_make_your_day_mint_mont_coffee_for_3_dollars_only"
         android:textAlignment="center"
+        android:drawableLeft="@drawable/cup"
         android:textColor="@android:color/holo_red_light"
         android:textSize="20sp" />
 
